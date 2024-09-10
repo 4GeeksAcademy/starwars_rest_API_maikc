@@ -1,0 +1,41 @@
+/* 
+    General Styles
+*/
+body{
+    background-color: rgb(58, 58, 58);
+}
+.navbar{
+    background-color: black;
+}
+.logo{
+    width: 120px;
+    height: 80px;
+    margin-left: 30px;
+}
+.btn-warning{
+    margin-right: 30px;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-warning {
+    background-color: transparent;
+    border: none;
+    color: #ffc107;
+  }
+  
+  .btn-warning:hover {
+    background-color: rgba(255, 193, 7, 0.2);
+  }
+  
+  .btn-warning.active {
+    background-color: rgba(255, 193, 7, 0.8);
+    color: #fff;
+  }
+  
+.footer{
+    color: aliceblue;
+}
